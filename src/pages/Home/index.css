@@ -1,0 +1,103 @@
+.page-home {
+    background: #590B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.page-home .blackfex-logo {
+    position: absolute;
+
+    width: 220px;
+    height: 44px;
+    left: 28px;
+    top: 28px;
+}
+
+.page-home .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-home .perfil img {
+    width: 220px;
+    height: 220px;
+}
+
+.page-home .perfil .nome {
+    color: #FFFAB9;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+
+    margin: 18px 0px 10px 0px;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.page-home .perfil .cargo {
+    color: #FFFAB9;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+
+    font-size: 20px;
+}
+
+.page-home .botoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+}
+
+.page-home .botoes-container .linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-home .botoes-container .linha .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    background: #A62424;
+    color: #FFFAB9;
+    font-family: Roboto, sans-serif;
+
+    font-size: 20px;
+    border-radius: 14px;
+    width: 350px;
+    height: 220px;
+    margin: 20px;
+
+    transition: 0.7s;
+}
+
+.page-home .botoes-container .linha .btn:hover {
+    background: #A60A0A;
+
+    border-radius: 22px;
+}
+
+.page-home .botoes-container .linha .btn img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
