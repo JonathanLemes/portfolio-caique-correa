@@ -26,6 +26,11 @@
 }
 
 .page-home .perfil img {
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    box-shadow: 0 0 25px #FFFAB9;
+
     width: 22vh;
     height: 22vh;
 }
@@ -37,7 +42,8 @@
     text-align: center;
     font-family: Roboto, sans-serif;
 
-    margin: 2vh 0px 1vh 0px;
+    margin-top: 1.5vh;
+    margin-bottom: 0.5vh;
     font-size: 2rem;
     line-height: 3vh;
 }
