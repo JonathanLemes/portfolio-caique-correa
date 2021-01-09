@@ -12,10 +12,10 @@
 .page-home .blackfex-logo {
     position: absolute;
 
-    width: 220px;
-    height: 44px;
-    left: 28px;
-    top: 28px;
+    width: 25vh;
+    height: 5vh;
+    left: 1.5vw;
+    top: 1.5vw;
 }
 
 .page-home .perfil {
@@ -26,8 +26,8 @@
 }
 
 .page-home .perfil img {
-    width: 220px;
-    height: 220px;
+    width: 22vh;
+    height: 22vh;
 }
 
 .page-home .perfil .nome {
@@ -37,9 +37,9 @@
     text-align: center;
     font-family: Roboto, sans-serif;
 
-    margin: 18px 0px 10px 0px;
-    font-size: 32px;
-    line-height: 38px;
+    margin: 2vh 0px 1vh 0px;
+    font-size: 2rem;
+    line-height: 3vh;
 }
 
 .page-home .perfil .cargo {
@@ -49,7 +49,7 @@
     text-align: center;
     font-family: Roboto, sans-serif;
 
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .page-home .botoes-container {
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
 
-    margin: 20px;
+    margin: 2vh;
 }
 
 .page-home .botoes-container .linha {
@@ -81,11 +81,11 @@
     color: #FFFAB9;
     font-family: Roboto, sans-serif;
 
-    font-size: 20px;
+    font-size: 1.3rem;
     border-radius: 14px;
-    width: 350px;
-    height: 220px;
-    margin: 20px;
+    width: 37vh;
+    height: 23vh;
+    margin: 2vh;
 
     transition: 0.7s;
 }
@@ -97,7 +97,7 @@
 }
 
 .page-home .botoes-container .linha .btn img {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 10px;
+    width: 7vh;
+    height: 7vh;
+    margin-bottom: 1vh;
 }
