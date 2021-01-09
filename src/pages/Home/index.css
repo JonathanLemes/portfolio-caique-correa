@@ -43,7 +43,7 @@
     font-family: Roboto, sans-serif;
 
     margin-top: 2.2vh;
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.1vh;
     font-size: 2rem;
 }
 
@@ -62,8 +62,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    margin: 2vh;
 }
 
 .page-home .botoes-container .linha {
