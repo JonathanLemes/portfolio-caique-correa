@@ -42,7 +42,7 @@
     font-style: normal;
     font-weight: bold;
     text-align: center;
-    
+
     font-family: Roboto, sans-serif;
 
     margin-top: 2.2vh;
@@ -107,4 +107,41 @@
     width: 100%;
     height: 100%;
     font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .page-about .blackfex-logo {
+        opacity: 0;
+    }
+
+    .page-about .content-block {
+        justify-content: center;
+    }
+
+    .page-about .content-block .about-block {
+        width: 90%;
+    }
+
+    .page-about .content-block .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 60px;
+        height: 60px;
+    }
+
+    .page-about .content-block .btn.home {
+        position: absolute;
+        
+        left: 20px;
+        top: 20px;
+    }
+
+    .page-about .content-block .btn.experiencias {
+        position: absolute;
+        
+        right: 20px;
+        top: 20px;
+    }
 }
