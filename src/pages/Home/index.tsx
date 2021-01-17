@@ -20,7 +20,7 @@ export default function Home() {
         <div className="botoes-container">
             <div className="linha">
                 <Link to="/sobre" className="btn"><img src={ImgSobre} alt="Sobre" />Sobre</Link>
-                <Link to="/experiencias" className="btn"><img src={ImgExperiencias} alt="Sobre" />Experiências acadêmicas</Link>
+                <Link to="/experiencias" className="btn"><img src={ImgExperiencias} alt="Experiências acadêmicas" />Experiências acadêmicas</Link>
             </div>
             <div className="linha">
                 <a href="https://www.linkedin.com/in/caique-correa/" target="_blank" rel="noreferrer" className="btn"><img src={ImgLinkedIn} alt="Sobre" />LinkedIn</a>
