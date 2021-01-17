@@ -144,4 +144,8 @@
         right: 20px;
         top: 20px;
     }
+
+    .page-about .content-block .about-block .text {
+        padding: 48px 24px;
+    }
 }
