@@ -1,0 +1,296 @@
+.page-experiences {
+    background: #590B0B;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    height: 100%;
+    width: 100%;
+}
+
+.page-experiences .blackfex-logo {
+    position: absolute;
+
+    width: 25vh;
+    height: 5vh;
+    left: 1.5vw;
+    top: 1.5vw;
+}
+
+.page-experiences .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 20vh;
+}
+
+.page-experiences .menu .arrow {
+    background: #A62424;
+    border: none;
+    color: #FFFAB9;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre-line;
+    
+    font-family: Roboto, sans-serif;
+    
+    margin: 0 1vw;
+    font-size: 1.4rem;
+    border-radius: 41px;
+    width: 5vh;
+    height: 5vh;
+
+    transition: 0.7s;
+}
+
+.page-experiences .menu .arrow:hover {
+    background: #A60A0A;
+    cursor: pointer;
+}
+
+.page-experiences .menu .category {
+    background: #A62424;
+    border: none;
+    color: #FFFAB9;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre-line;
+    
+    font-family: Roboto, sans-serif;
+    
+    font-size: 1.4rem;
+    border-radius: 41px;
+    width: 15vw;
+    height: 5vh;
+
+    transition: 0.7s;
+}
+
+.page-experiences .menu .category:hover {
+    background: #A60A0A;
+}
+
+.page-experiences .content-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.page-experiences .content-block .btn {
+    background: #A62424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+    width: 90px;
+    height: 90px;
+
+    transition: 0.7s;
+}
+
+.page-experiences .content-block .btn:hover {
+    background: #A60A0A;
+
+    border-radius: 18px;
+}
+
+.page-experiences .content-block .btn img {
+    width: 70%;
+    height: 70%;
+}
+
+.page-experiences .content-block .loading-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 40px;
+    height: 100vh;
+}
+
+.page-experiences .content-block .experiences-block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    border-radius: 40px;
+    width: 20vw;
+    height: 100vh;
+}
+
+.page-experiences .content-block .experiences-block:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-experiences .content-block .experiences-block:nth-of-type(2) {
+    display: flex;
+    align-items: flex-end;
+}
+
+.page-experiences .content-block .experiences-block:nth-of-type(2):empty {
+    display: none;
+}
+
+.page-experiences .content-block .experiences-block:nth-of-type(3) {
+    display: flex;
+    align-items: flex-start;
+}
+
+.page-experiences .content-block .experiences-block:nth-of-type(3):empty {
+    display: none;
+}
+
+.page-experiences .content-block .experiences-block:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-experiences .content-block .experiences-block .experiences-card {
+    background: #A62424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+
+    border-radius: 41px;
+    padding: 1vh 1vw;
+    margin: 1vh 0;
+    width: 20vw;
+}
+
+.page-experiences .content-block .experiences-block .experiences-card h1 {
+    border: none;
+    color: #FFFAB9;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre-line;
+    
+    font-family: Roboto, sans-serif;
+    
+    margin: 1.5vh 0;
+    font-size: 1.4rem;
+}
+
+.page-experiences .content-block .experiences-block .experiences-card h2 {
+    border: none;
+    color: #FFFAB9;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre-line;
+    
+    font-family: Roboto, sans-serif;
+    
+    margin: 1.5vh 0;
+    font-size: 1.4rem;
+}
+
+.page-experiences .content-block .experiences-block .experiences-card p {
+    border: none;
+    color: #FFFAB9;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    white-space: pre-line;
+    
+    font-family: Roboto, sans-serif;
+    
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .page-experiences .blackfex-logo {
+        opacity: 0;
+    }
+
+    .page-experiences .menu .category {
+        width: 40vw;
+        height: 5vh;
+    }
+
+    .page-experiences .content-block {
+        justify-content: center;
+        flex-direction: column;
+
+        width: 100%;
+        padding: 0;
+    }
+
+    .page-experiences .content-block .experiences-block {
+        width: 90%;
+    }
+
+    .page-experiences .content-block .experiences-block:first-of-type {
+        height: 0;
+    }
+
+    .page-experiences .content-block .experiences-block:last-of-type {
+        height: 0;
+    }
+
+    .page-experiences .content-block .experiences-block:nth-of-type(2) {
+        display: flex;
+        align-items: center;
+
+        margin: 0;
+        height: 100%;
+    }
+    
+    .page-experiences .content-block .experiences-block:nth-of-type(2):empty {
+        display: none;
+    }
+    
+    .page-experiences .content-block .experiences-block:nth-of-type(3) {
+        display: flex;
+        align-items: center;
+
+        margin: 0;
+    }
+    
+    .page-experiences .content-block .experiences-block:nth-of-type(3):empty {
+        display: none;
+    }
+
+    .page-experiences .content-block .experiences-block .experiences-card {
+        width: 90%;
+    }
+
+    .page-experiences .content-block .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 60px;
+        height: 60px;
+    }
+
+    .page-experiences .content-block .btn.home {
+        position: absolute;
+        
+        right: 20px;
+        top: 20px;
+    }
+
+    .page-experiences .content-block .btn.experiencias {
+        position: absolute;
+        
+        left: 20px;
+        top: 20px;
+    }
+}
