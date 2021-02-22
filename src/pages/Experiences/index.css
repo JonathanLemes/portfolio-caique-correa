@@ -219,8 +219,12 @@
         opacity: 0;
     }
 
+    .page-experiences .menu {
+        height: 30vh;
+    }
+
     .page-experiences .menu .category {
-        width: 40vw;
+        width: 60vw;
         height: 5vh;
     }
 
